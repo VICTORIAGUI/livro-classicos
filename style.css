@@ -3,8 +3,8 @@
 /* Adicionando fonte externa. */
 @font-face {
 	font-family: goth;
-	src: url(./fonte/old_london/OldLondon.ttf);
-	src: url(./fonte/old_london/OldLondonAlternate.ttf);
+	src: url(./OldLondon.ttf);
+	src: url(./OldLondonAlternate.ttf);
 }
 
 /* Estilização da margem geral da página. */
@@ -38,12 +38,12 @@ input {
 
 /* Adicionando a capa do livro. */
 .capa {
-	background-image: url(./img/capa.jpg);
+	background-image: url(./capa.jpg);
 }
 
 /* Adicionando a capa final do livro. */
 .tampa-capa {
-	background-image: url(./img/tampa_capa.jpg);
+	background-image: url(./tampa_capa.jpg);
 }
 
 /* Centralizando, estabelezendo tamanho e dando sombra ao livro e as capas. */
@@ -75,7 +75,7 @@ input {
 
 /* Declarando background das páginas. */
 .pagina {
-	background-image: url(./img/img_folha.jpg);
+	background-image: url(./img_folha.jpg);
 }
 
 /* Declarando tamanho, sombra e transição das páginas. */
